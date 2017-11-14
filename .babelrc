@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["env", {
+      "targets": { "browsers": [ "Chrome 50" ] },
+      "modules": false
+    }],
+    "stage-2"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ],
+    "react-hot-loader/babel",
+    "transform-decorators-legacy",
+    ["transform-react-jsx"]
+  ]
+}
