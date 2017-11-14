@@ -9,7 +9,7 @@ export default class About extends Component {
 
     console.log('clicked')
 
-    // work as expect
+    // work as expected
     this.setState({ clicked: true })
   }
 

@@ -14,7 +14,7 @@ Steps
 
 1. visite `http://localhost:8283` with devtool opened.
 
-2. the `onClick` event handler doesn't work as expect. `this.setState({ clicked: true })` not working. You can verify it by clicking the **click me** button. ( sourecode -> **src/components/home.jsx** )
+2. the `onClick` event handler doesn't work as expected. `this.setState({ clicked: true })` not working. You can verify it by clicking the **click me** button. ( sourecode -> **src/components/home.jsx** )
 
 
 
